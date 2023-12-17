@@ -165,6 +165,18 @@ main {
     justify-content: center;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    /* because of fixing bellow lineheight in #photos , we want to keep the alt text (if image doesn't load) fully visible */
+    line-height: 1em;
+}
+
+#photos {
+    /* img are inline elements and by default are treated same as inline text, where text has automatic line height to verticaly space out the lines.  */
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
