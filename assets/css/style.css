@@ -25,6 +25,11 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/* Utility class to hide heading for clean look, but to keep information for search engines to have higher visibility on search engines */
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
